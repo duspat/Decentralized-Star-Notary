@@ -8,6 +8,10 @@ The main project dependencies are:
  * OpenZeppelin. See https://www.npmjs.com/package/openzeppelin-solidity
  * Webpack dev server library. See https://www.npmjs.com/package/webpack-dev-server
  
+ ### Versions
+ * truffle version: v5.0.12
+ * openzeppelin-solidity version: v2.2.0
+ 
 ## Deployment
 * Create `.secret` file in root directory and paste secret phrase
 ### `truffle-config.js` config
@@ -36,10 +40,6 @@ e.g
 
 ## Running the app
 * Run `npm run dev` from `app` directory
-
-## Additional Information
-* truffle version: v5.0.12
-* openzeppelin-solidity version: v2.2.0
 
 ### Token Information
 * Token Name: Star Gazer
