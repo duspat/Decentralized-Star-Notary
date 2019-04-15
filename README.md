@@ -44,4 +44,4 @@ e.g
 ### Token Information
 * Token Name: Star Gazer
 * Token Symbol: STG
-* Token Address on Rinkeby Network: 0x0e16caf1c0D10CD9d1cF39f53F0044dFf27701b7
+* Token Address on Rinkeby Network: 0x071633471c2846371E33557D68B1F28C63aE976C
