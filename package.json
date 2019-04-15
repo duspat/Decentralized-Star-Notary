@@ -1,0 +1,26 @@
+{
+  "name": "project_5_starter_code",
+  "version": "1.0.0",
+  "description": "This is Project provides a Star Notary DAPP deployed on Rinkeby testnet.",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.2.0",
+    "truffle-hdwallet-provider": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "truffle develop",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duspat/Decentralized-Star-Notary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duspat/Decentralized-Star-Notary/issues"
+  },
+  "homepage": "https://github.com/duspat/Decentralized-Star-Notary#readme"
+}

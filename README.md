@@ -39,7 +39,7 @@ e.g
 
 ## Additional Information
 * truffle version: v5.0.12
-* openzeppelin-solidity version: v2.1.2
+* openzeppelin-solidity version: v2.2.0
 
 ### Token Information
 * Token Name: Star Gazer
