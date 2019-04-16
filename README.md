@@ -26,7 +26,7 @@ e.g
        provider: () => new HDWallet(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
        network_id: 4, // rinkeby's id
        gas: 4500000,  // rinkeby has a lower block limit than mainnet
-       gasPrice: 10000000000
+       gasPrice: 10000000000,
        timeoutBlocks: 300,  // # of blocks before a deployment times out  (minimum/default: 50)
        skipDryRun: true
     }
@@ -35,8 +35,25 @@ e.g
 ```
 
 * Run `truffle migrate --reset --network <NETWORK_NAME>`
+## Local testing
+* For starting the development console, run on root directory:
+
+`truffle develop`
+
+* For compiling the contract, inside the development console, run:
+
+`compile`
+
+* For migrating the contract to the locally running Ethereum network, inside the development console, run:
+
+`migrate --reset`
+
+* For running unit tests the contract, inside the development console, run:
+
+`test`
+
 ## How to install App
-* Run `cd app && npm install dev` 
+* Run `cd app && npm install` from root directory
 
 ## Running the app
 * Run `npm run dev` from `app` directory
